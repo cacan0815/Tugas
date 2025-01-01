@@ -3,11 +3,11 @@
 namespace App\Models;
 
 use CodeIgniter\Model;
-use App\Database\Migrations\MigrationBouketMounichan;
+use App\Database\Migrations\MigrationBouketMounichn;
 
 class FormModel extends Model
 {
-    protected $table = 'tb_bouketmounichan';
+    protected $table = 'bouket_mounichan';
     protected $primaryKey = 'id';
     protected $useAutoIncrement = true;
     protected $useSoftDeletes = false;
@@ -16,5 +16,5 @@ class FormModel extends Model
     protected $updatedField = 'updated_at';
     protected $deletedField = 'deleted_at';
 
-    protected $allowedFields = ['name', 'email', 'phone', 'address', 'ukuran', 'jenis', 'information'];
+    protected $allowedFields = ['name', 'email', 'phone', 'address', 'size', 'type', 'information'];
 }

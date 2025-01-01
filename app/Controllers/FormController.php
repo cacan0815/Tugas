@@ -20,8 +20,8 @@ class FormController extends Controller
             'email' => 'required|valid_email',
             'phone' => 'required|numeric',
             'address' => 'required',
-            'ukuran' => 'required',
-            'jenis' => 'required',
+            'size' => 'required',
+            'type' => 'required',
             'information' => 'required',
         ]);
 
@@ -47,16 +47,16 @@ class FormController extends Controller
             'email' => $this->request->getVar('email'),
             'phone' => $this->request->getVar('phone'),
             'address' => $this->request->getVar('address'),
-            'ukuran' => $this->request->getVar('ukuran'),
-            'jenis' => $this->request->getVar('jenis'),
+            'size' => $this->request->getVar('size'),
+            'type' => $this->request->getVar('type'),
             'information' => $this->request->getVar('information'),
         ];
 
-        try {
-            $model->save($data);
-            return redirect()->route('form');
-        } catch (\Exception $e) {
-            echo $e->getMessage();
+        // Simpan data
+        if ($model->insert($data)) {
+            return redirect()->to('/form')->with('success', 'Data berhasil disimpan.');
+        } else {
+            return redirect()->to('/form')->with('error', 'Data gagal disimpan.');
         }
     }
 }

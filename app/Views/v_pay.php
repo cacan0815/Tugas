@@ -62,40 +62,40 @@
                         </div>
 
                         <div>
-                            <label class="sr-only" for="message">Address</label>
+                            <label class="sr-only" for="address">Address</label>
 
                             <textarea class="w-full rounded-lg border-gray-200 p-3 text-sm" placeholder="Address"
-                                rows="4" id="message"></textarea>
+                                rows="4" id="address"></textarea>
                         </div>
 
 
                         <div class="Ukuran">
                             <div class="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
                                 <div>
-                                    <label for="Kecil"
+                                    <label for="small"
                                         class="block w-full cursor-pointer rounded-lg border border-gray-200 p-3 text-gray-600 hover:border-black has-[:checked]:border-black has-[:checked]:bg-black has-[:checked]:text-white"
                                         tabindex="0">
-                                        <input class="sr-only" id="Kecil" type="radio" tabindex="-1" name="Ukuran" />
+                                        <input class="sr-only" id="small" type="radio" tabindex="-1" name="Ukuran" />
 
                                         <span class="text-sm"> Small </span>
                                     </label>
                                 </div>
 
                                 <div>
-                                    <label for="Sedang"
+                                    <label for="medium"
                                         class="block w-full cursor-pointer rounded-lg border border-gray-200 p-3 text-gray-600 hover:border-black has-[:checked]:border-black has-[:checked]:bg-black has-[:checked]:text-white"
                                         tabindex="0">
-                                        <input class="sr-only" id="Sedang" type="radio" tabindex="-1" name="Ukuran" />
+                                        <input class="sr-only" id="medium" type="radio" tabindex="-1" name="Ukuran" />
 
                                         <span class="text-sm"> Medium </span>
                                     </label>
                                 </div>
 
                                 <div>
-                                    <label for="Besar"
+                                    <label for="large"
                                         class="block w-full cursor-pointer rounded-lg border border-gray-200 p-3 text-gray-600 hover:border-black has-[:checked]:border-black has-[:checked]:bg-black has-[:checked]:text-white"
                                         tabindex="0">
-                                        <input class="sr-only" id="Besar" type="radio" tabindex="-1" name="Ukuran" />
+                                        <input class="sr-only" id="large" type="radio" tabindex="-1" name="Ukuran" />
 
                                         <span class="text-sm"> Large </span>
                                     </label>
@@ -106,30 +106,30 @@
                         <div class="Jenis">
                             <div class="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
                                 <div>
-                                    <label for="Snack"
+                                    <label for="snack"
                                         class="block w-full cursor-pointer rounded-lg border border-gray-200 p-3 text-gray-600 hover:border-black has-[:checked]:border-black has-[:checked]:bg-black has-[:checked]:text-white"
                                         tabindex="0">
-                                        <input class="sr-only" id="Snack" type="radio" tabindex="-1" name="Jenis" />
+                                        <input class="sr-only" id="snack" type="radio" tabindex="-1" name="Jenis" />
 
                                         <span class="text-sm"> Snack </span>
                                     </label>
                                 </div>
 
                                 <div>
-                                    <label for="Flower"
+                                    <label for="flower"
                                         class="block w-full cursor-pointer rounded-lg border border-gray-200 p-3 text-gray-600 hover:border-black has-[:checked]:border-black has-[:checked]:bg-black has-[:checked]:text-white"
                                         tabindex="0">
-                                        <input class="sr-only" id="Flower" type="radio" tabindex="-1" name="Jenis" />
+                                        <input class="sr-only" id="flower" type="radio" tabindex="-1" name="Jenis" />
 
                                         <span class="text-sm"> Flower </span>
                                     </label>
                                 </div>
 
                                 <div>
-                                    <label for="Money"
+                                    <label for="money"
                                         class="block w-full cursor-pointer rounded-lg border border-gray-200 p-3 text-gray-600 hover:border-black has-[:checked]:border-black has-[:checked]:bg-black has-[:checked]:text-white"
                                         tabindex="0">
-                                        <input class="sr-only" id="Money" type="radio" tabindex="-1" name="Jenis" />
+                                        <input class="sr-only" id="money" type="radio" tabindex="-1" name="Jenis" />
 
                                         <span class="text-sm"> Money </span>
                                     </label>
@@ -138,14 +138,14 @@
                         </div>
 
                         <div>
-                            <label class="sr-only" for="message">information</label>
+                            <label class="sr-only" for="information">information</label>
 
                             <textarea class="w-full rounded-lg border-gray-200 p-3 text-sm" placeholder="information"
-                                rows="8" id="message"></textarea>
+                                rows="8" id="information"></textarea>
                         </div>
 
                         <div class="mt-4">
-                            <button type="submit"
+                            <button type="Send"
                                 class="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto">
                                 Send
                             </button>
